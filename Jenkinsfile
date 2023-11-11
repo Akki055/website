@@ -1,7 +1,7 @@
 pipeline {
     agent none
     environment {
-        DOCKERHUB_CREDENTIALS = credentials("c3938a64-2d06-4cdf-a671-40c1e5683c49")
+        DOCKERHUB_CREDENTIALS = credentials("6249cb9e-9354-43b2-91ef-666588c456b5")
     }
     stages {
         stage('git') {
